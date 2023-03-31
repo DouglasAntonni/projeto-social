@@ -34,3 +34,26 @@ main{
     background-attachment: fixed;
 
 }
+#tela{
+    position: relative;
+    width: 265px;
+    height: 467px;
+    top: 80px;
+    left: 22px;
+}
+#resoc img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(10, 10, 10);
+    
+}
+#resoc{
+    text-align: right;
+    box-sizing: border-box;
+}
+#resoc img:hover{
+    border: 2px solid white;
+    transform: translate(-3px -3px);
+    transition: transform .2s, border .3s;
+}
