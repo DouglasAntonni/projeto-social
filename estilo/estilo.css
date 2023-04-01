@@ -55,5 +55,5 @@ main{
 #resoc img:hover{
     border: 2px solid white;
     transform: translate(-3px -3px);
-    transition: transform .2s, border .3s;
+    transition: transform .2s, border .2s;
 }
